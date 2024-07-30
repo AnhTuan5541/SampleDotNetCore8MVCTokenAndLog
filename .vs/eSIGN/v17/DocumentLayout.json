@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\700976\\source\\repos\\eSIGN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\common\\commonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\common\\commonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\common\\commonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\common\\commonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\views\\application\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\views\\application\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|c:\\users\\700976\\source\\repos\\esign\\esign\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F968BF-6207-413B-B381-A44BF7C86269}|eSIGN\\eSIGN.csproj|solutionrelative:esign\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommonResponse.cs",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Common\\CommonResponse.cs",
+              "RelativeDocumentMoniker": "eSIGN\\Common\\CommonResponse.cs",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Common\\CommonResponse.cs",
+              "RelativeToolTip": "eSIGN\\Common\\CommonResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:11:05.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommonFunction.cs",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Common\\CommonFunction.cs",
+              "RelativeDocumentMoniker": "eSIGN\\Common\\CommonFunction.cs",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Common\\CommonFunction.cs",
+              "RelativeToolTip": "eSIGN\\Common\\CommonFunction.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:49:13.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "eSIGN\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Controllers\\UserController.cs",
+              "RelativeToolTip": "eSIGN\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:44:22.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "eSIGN\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "eSIGN\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAhwCsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T03:15:21.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "eSIGN\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "eSIGN\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAO0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T02:59:56.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "eSIGN\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "eSIGN\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHUBAAAAAAAAAAAqwLEBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T01:47:09.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Views\\Application\\Index.cshtml",
+              "RelativeDocumentMoniker": "eSIGN\\Views\\Application\\Index.cshtml",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Views\\Application\\Index.cshtml",
+              "RelativeToolTip": "eSIGN\\Views\\Application\\Index.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAowB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T01:45:47.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "eSIGN\\Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\Users\\700976\\source\\repos\\eSIGN\\eSIGN\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "eSIGN\\Controllers\\ApplicationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T01:45:34.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

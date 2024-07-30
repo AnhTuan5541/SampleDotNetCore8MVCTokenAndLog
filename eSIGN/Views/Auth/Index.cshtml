@@ -1,0 +1,130 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAuth.cshtml";
+}
+
+@section Styles {
+    @* <style>
+        #loading {
+            border: 6px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 6px solid #3498db;
+            width: 45px;
+            height: 45px;
+            -webkit-animation: spin 1s linear infinite; /* Safari */
+            animation: spin 1s linear infinite;
+        }
+
+    </style> *@
+}
+
+<div>
+    <div class="loading" style="display: none" id="loading"></div>
+
+    <div class="login-logo">
+    <b>e</b>Sign
+    </div>
+    <!-- /.login-logo -->
+    <div class="card">
+    <div class="card-body login-card-body">
+        <p class="login-box-msg">Sign in to start your session</p>
+
+        <div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Username" id="username">
+            <div class="input-group-append">
+            <div class="input-group-text">
+                <span class="fas fa-envelope"></span>
+            </div>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <input type="password" class="form-control" placeholder="Password" id="password">
+            <div class="input-group-append">
+            <div class="input-group-text">
+                <span class="fas fa-lock"></span>
+            </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Select Site</label>
+            <select class="form-control" id="site">
+                <option>ATV</option>
+                <option>ATI</option>
+                <option>ATK</option>
+                <option>ATJ</option>
+                <option>ATC</option>
+                <option>ATM</option>
+                <option>ATP</option>
+                <option>ATT</option>
+                <option>ATT</option>
+                <option>ATEP</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-7">
+            @* <div class="icheck-primary">
+                <input type="checkbox" id="remember">
+                <label for="remember">
+                Remember Me
+                </label>
+            </div> *@
+            </div>
+            <!-- /.col -->
+            <div class="col-5">
+            <button class="btn btn-primary btn-block" onclick="login()">Sign In</button>
+            </div>
+            <!-- /.col -->
+        </div>
+        </div>
+
+    </div>
+    <!-- /.login-card-body -->
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+
+        })
+
+        function login() {
+            document.getElementById('loading').style.display = 'block';
+
+            let username = document.getElementById('username').value;
+            @* let password = document.getElementById('password').value; *@
+            let password = "Thukikimcuaanh@12296";
+            let site = document.getElementById('site').value;
+
+            let data = {
+                "userid": username,
+                "password": password,
+                "site": site
+            }
+
+            $.ajax({
+                url: '/Auth/GetUserInfo', 
+                type: 'POST',
+                data: data,
+                success: function (res) {
+                    document.getElementById('loading').style.display = 'none';
+
+                    sessionStorage.setItem('token', res.data[0].token);
+                    sessionStorage.setItem('display_name', res.data[0].display_name);
+                    sessionStorage.setItem('title_name', res.data[0].title_name);
+                    sessionStorage.setItem('email', res.data[0].email);
+                    sessionStorage.setItem('user_id', res.data[0].user_id);
+                    window.location.replace("/")
+                },
+                error: function (err) {
+                    alert('An error occurred. ' + err.message);
+                }
+            });
+
+        }
+    </script>
+}
+
+
+
